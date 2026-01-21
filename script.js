@@ -112,7 +112,7 @@ function showResults() {
         color = "#dc3545";
     }
 
-    // CLEAN template literal - correct syntax, no stray braces or backslashes
+    // This is the CORRECT template literal — no backslashes, no extra braces, no artifacts
     container.innerHTML = `
         <h1 class="text-center">Quiz Complete!</h1>
         <p class="lead text-center">Your Score: <strong>${score}</strong> out of ${totalQuestions}</p>
