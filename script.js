@@ -88,6 +88,7 @@ function answer(isPhishing) {
 }
 
 function showResults() {
+function showResults() {
     const container = document.querySelector('.card-body');
 
     let grade = "";
@@ -112,7 +113,6 @@ function showResults() {
         color = "#dc3545";
     }
 
-    
     container.innerHTML = `
         <h1 class="text-center">Quiz Complete!</h1>
         <p class="lead text-center">Your Score: <strong>${score}</strong> out of ${totalQuestions}</p>
@@ -122,4 +122,4 @@ function showResults() {
             <button class="btn btn-primary btn-lg" onclick="location.reload()">Retake Quiz</button>
         </div>
     `;
-}//Force fix template literal - remove stray braces Jan 21".
+}
