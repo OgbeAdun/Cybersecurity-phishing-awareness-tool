@@ -112,7 +112,7 @@ function showResults() {
         color = "#dc3545";
     }
 
-    // This is the CORRECT template literal — no backslashes, no extra braces, no artifacts
+    
     container.innerHTML = `
         <h1 class="text-center">Quiz Complete!</h1>
         <p class="lead text-center">Your Score: <strong>${score}</strong> out of ${totalQuestions}</p>
@@ -122,4 +122,4 @@ function showResults() {
             <button class="btn btn-primary btn-lg" onclick="location.reload()">Retake Quiz</button>
         </div>
     `;
-}
+}//Force fix template literal - remove stray braces Jan 21".
